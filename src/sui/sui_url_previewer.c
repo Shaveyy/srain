@@ -170,7 +170,7 @@ static void sui_url_previewer_init(SuiUrlPreviewer *self){
     /* All SuiUrlPreviewers share one SoupSession instance */
     if (!SOUP_IS_SESSION(default_session)){
         default_session = soup_session_new_with_options(
-                SOUP_SESSION_USER_AGENT, PACKAGE_NAME "/" PACKAGE_VERSION,
+                SOUP_SESSION_USER_AGENT, PACKAGE_NAME "/" PACKAGE_VERSION "(Shaveyy fork)",
                 SOUP_SESSION_ACCEPT_LANGUAGE_AUTO, TRUE,
                 NULL);
     }
