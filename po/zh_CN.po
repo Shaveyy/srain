@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-02 16:09+0800\n"
+"POT-Creation-Date: 2020-08-21 04:34+0000\n"
 "PO-Revision-Date: 2016-12-18 01:44+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -378,7 +378,7 @@ msgstr "无法添加聊天 \"%1$s\", 原因为: %2$s"
 msgid "Failed to add regex pattern \"%1$s\": %2$s"
 msgstr "无法添加服务器 \"%1$s\": %2$s"
 
-#: ../src/core/app.c:407 ../src/core/app_url.c:119
+#: ../src/core/app.c:407 ../src/core/app_url.c:120
 #, c-format
 msgid "Failed to add server \"%1$s\": %2$s"
 msgstr "无法添加服务器 \"%1$s\": %2$s"
@@ -463,7 +463,7 @@ msgstr "无法加载主题 \"%1$s\", 原因为: %2$s"
 msgid "Failed to instantiate server \"%1$s\""
 msgstr "无法实例化服务器 \"%1$s\""
 
-#: ../src/core/app_url.c:146 ../src/core/app_url.c:154
+#: ../src/core/app_url.c:147 ../src/core/app_url.c:155
 #, c-format
 msgid "Failed to join channel on server \"%1$s\": %2$s"
 msgstr "无法加入在 \"%1$s\" 服务器上的频道， 原因为: %2$s"
@@ -473,7 +473,7 @@ msgstr "无法加入在 \"%1$s\" 服务器上的频道， 原因为: %2$s"
 msgid "Failed to open URL \"%1$s\": %2$s"
 msgstr "无法打开 URL \"%1$s\"：%2$s"
 
-#: ../src/core/app_url.c:60
+#: ../src/core/app_url.c:61
 #, c-format
 msgid "Failed to parse \"%1$s\" as URL"
 msgstr "无法将 \"%1$s\" 解析为 URL"
@@ -493,7 +493,7 @@ msgstr "无法读取系统配置：%1$s"
 msgid "Failed to read user configuration file: %1$s"
 msgstr "无法读取用户配置：%1$s"
 
-#: ../src/core/app_url.c:135 ../src/core/chat_command.c:169
+#: ../src/core/app_url.c:136 ../src/core/chat_command.c:169
 #: ../src/core/chat_command.c:306
 #, c-format
 msgid "Failed to register on server \"%1$s\""
@@ -1018,7 +1018,7 @@ msgstr "未知子命令：%1$s"
 msgid "Unsupported URL content type"
 msgstr "不支持的 URL metadata 类型"
 
-#: ../src/core/app_url.c:67
+#: ../src/core/app_url.c:68
 #, c-format
 msgid "Unsupported protocol: %1$s"
 msgstr "不支持的协议：%1$s"

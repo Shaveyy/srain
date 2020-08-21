@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-02 16:09+0800\n"
+"POT-Creation-Date: 2020-08-21 04:34+0000\n"
 "PO-Revision-Date: 2019-04-17 16:14+0300\n"
 "Last-Translator: Artem Polishchuk <ego.cordatus@gmail.com>\n"
 "Language-Team: \n"
@@ -383,7 +383,7 @@ msgstr "Не удалось добавить чат \"%1$s\": %2$s"
 msgid "Failed to add regex pattern \"%1$s\": %2$s"
 msgstr "Не удалось добавить сервер \"%1$s\": %2$s"
 
-#: ../src/core/app.c:407 ../src/core/app_url.c:119
+#: ../src/core/app.c:407 ../src/core/app_url.c:120
 #, c-format
 msgid "Failed to add server \"%1$s\": %2$s"
 msgstr "Не удалось добавить сервер \"%1$s\": %2$s"
@@ -470,7 +470,7 @@ msgstr "Не удалось применить тему из файла \"%1$s\"
 msgid "Failed to instantiate server \"%1$s\""
 msgstr "Не удалось создать экземпляр сервера \"%1$s\""
 
-#: ../src/core/app_url.c:146 ../src/core/app_url.c:154
+#: ../src/core/app_url.c:147 ../src/core/app_url.c:155
 #, c-format
 msgid "Failed to join channel on server \"%1$s\": %2$s"
 msgstr "Не удалось присоединиться к каналу на сервере \"%1$s\": %2$s"
@@ -480,7 +480,7 @@ msgstr "Не удалось присоединиться к каналу на с
 msgid "Failed to open URL \"%1$s\": %2$s"
 msgstr "Не удалось открыть URL \"%1$s\": %2$s"
 
-#: ../src/core/app_url.c:60
+#: ../src/core/app_url.c:61
 #, c-format
 msgid "Failed to parse \"%1$s\" as URL"
 msgstr "Не удалось обработать \"%1$s\" как URL"
@@ -500,7 +500,7 @@ msgstr "Не удалось прочитать системный файл ко�
 msgid "Failed to read user configuration file: %1$s"
 msgstr "Не удалось прочитать файл конфигурации пользователя: %1$s"
 
-#: ../src/core/app_url.c:135 ../src/core/chat_command.c:169
+#: ../src/core/app_url.c:136 ../src/core/chat_command.c:169
 #: ../src/core/chat_command.c:306
 #, c-format
 msgid "Failed to register on server \"%1$s\""
@@ -1034,7 +1034,7 @@ msgstr "Неизвестная подкоманда: %1$s"
 msgid "Unsupported URL content type"
 msgstr "Неподдерживаемый тип содержимого URL"
 
-#: ../src/core/app_url.c:67
+#: ../src/core/app_url.c:68
 #, c-format
 msgid "Unsupported protocol: %1$s"
 msgstr "Неподдерживаемый протокол: %1$s"

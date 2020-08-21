@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-02 16:09+0800\n"
+"POT-Creation-Date: 2020-08-21 04:34+0000\n"
 "PO-Revision-Date: 2020-03-07 20:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -378,7 +378,7 @@ msgstr "Kan chat '%1$s' niet toevoegen: %2$s"
 msgid "Failed to add regex pattern \"%1$s\": %2$s"
 msgstr "Kan regex-patroon '%1$s' niet toevoegen: %2$s"
 
-#: ../src/core/app.c:407 ../src/core/app_url.c:119
+#: ../src/core/app.c:407 ../src/core/app_url.c:120
 #, c-format
 msgid "Failed to add server \"%1$s\": %2$s"
 msgstr "Kan server '%1$s' niet toevoegen: %2$s"
@@ -464,7 +464,7 @@ msgstr "Kan patroon niet verwijderen van gebruiker '%1$s': %2$s"
 msgid "Failed to instantiate server \"%1$s\""
 msgstr "Kan server '%1$s' niet opzetten"
 
-#: ../src/core/app_url.c:146 ../src/core/app_url.c:154
+#: ../src/core/app_url.c:147 ../src/core/app_url.c:155
 #, c-format
 msgid "Failed to join channel on server \"%1$s\": %2$s"
 msgstr "Kan niet verbinden met kanaal op server '%1$s': %2$s"
@@ -474,7 +474,7 @@ msgstr "Kan niet verbinden met kanaal op server '%1$s': %2$s"
 msgid "Failed to open URL \"%1$s\": %2$s"
 msgstr "Kan de url '%1$s' niet openen: %2$s"
 
-#: ../src/core/app_url.c:60
+#: ../src/core/app_url.c:61
 #, c-format
 msgid "Failed to parse \"%1$s\" as URL"
 msgstr "Kan '%1$s' niet verwerken als url"
@@ -494,7 +494,7 @@ msgstr "Kan het systeemconfiguratiebestand niet uitlezen: %1$s"
 msgid "Failed to read user configuration file: %1$s"
 msgstr "Kan het gebruikersconfiguratiebestand niet uitlezen: %1$s"
 
-#: ../src/core/app_url.c:135 ../src/core/chat_command.c:169
+#: ../src/core/app_url.c:136 ../src/core/chat_command.c:169
 #: ../src/core/chat_command.c:306
 #, c-format
 msgid "Failed to register on server \"%1$s\""
@@ -1026,7 +1026,7 @@ msgstr "Onbekende achterliggende opdraht: %1$s"
 msgid "Unsupported URL content type"
 msgstr "Niet-ondersteunde url"
 
-#: ../src/core/app_url.c:67
+#: ../src/core/app_url.c:68
 #, c-format
 msgid "Unsupported protocol: %1$s"
 msgstr "Niet-ondersteund protocol: %1$s"

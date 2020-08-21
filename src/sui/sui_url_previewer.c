@@ -412,7 +412,7 @@ static void preview_error_text(SuiUrlPreviewer *self,
     gtk_stack_set_visible_child_name(self->stack, STACK_PAGE_TEXT);
     gtk_label_set_text(self->text_label, text);
 }
-
+// Embed image function
 static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
     int width;
     int height;
@@ -423,9 +423,13 @@ static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
 
     sui_common_scale_size(gdk_pixbuf_get_width(pixbuf), gdk_pixbuf_get_height(pixbuf),
             THUMBNAIL_SIZE, THUMBNAIL_SIZE, &width, &height);
+    // Block images that have no height or width
+    if(width <= 1 || height <= 1) {
+        self->previewed = FALSE;
+        return;
+    }
     scaled_pixbuf = gdk_pixbuf_scale_simple(pixbuf, width, height,
                         GDK_INTERP_BILINEAR);
-
     self->pixbuf = g_object_ref(pixbuf);
     gtk_image_set_from_pixbuf(self->image, scaled_pixbuf);
     g_object_unref(scaled_pixbuf);
