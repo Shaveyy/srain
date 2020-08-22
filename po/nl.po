@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-21 22:23-0400\n"
+"POT-Creation-Date: 2020-08-22 01:34-0400\n"
 "PO-Revision-Date: 2020-03-07 20:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -356,7 +356,7 @@ msgstr "Fout tijdens uitlezen van serverconfiguratie in %1$s: %2$s"
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "Fout tijdens uitlezen van serverlijstconfiguratie in %1$s: %2$s"
 
-#: ../src/sui/sui_url_previewer.c:562
+#: ../src/sui/sui_url_previewer.c:565
 msgid "Exceed max content length"
 msgstr "Maximum inhoudslengte overschreden"
 
@@ -1022,7 +1022,7 @@ msgstr "Onbekende optie: %1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "Onbekende achterliggende opdraht: %1$s"
 
-#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:584
+#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:587
 msgid "Unsupported URL content type"
 msgstr "Niet-ondersteunde url"
 
