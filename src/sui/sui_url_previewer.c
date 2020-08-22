@@ -432,8 +432,8 @@ static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
         /* TODO Translate
         Add option to disable this */
         sui_message_box("Didn't display image","We've decided not to preview the image due to it being < 2 pixels");
-        cancel_preview(self);
         self->previewed = FALSE;
+        cancel_preview(self);
         return;
     }
     scaled_pixbuf = gdk_pixbuf_scale_simple(pixbuf, width, height,
