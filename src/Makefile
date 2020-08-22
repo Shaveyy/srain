@@ -36,7 +36,7 @@ CFLAGS += -std=gnu99 -O2 -Wall -Iinc -Wno-deprecated-declarations \
 		  $(LIBCONFIGFLAGS) \
 		  $(LIBSOUPFLAGS) \
 		  $(LIBSSLFLAGS) \
-		  $(LIBSECRETFLAGS)
+		  $(LIBSECRETFLAGS) 
 
 LDFLAGS += $(DBGFLAGS) \
 		   $(GTK3LIBS) \

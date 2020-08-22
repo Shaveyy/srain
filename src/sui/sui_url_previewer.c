@@ -428,8 +428,9 @@ static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
     sui_common_scale_size(gdk_pixbuf_get_width(pixbuf), gdk_pixbuf_get_height(pixbuf),
             THUMBNAIL_SIZE, THUMBNAIL_SIZE, &width, &height);
     // Block images that have no height or width
-    if(width <= 1 || height <= 1) {
-        self->previewed = FALSE;
+    if(width < 2 || height < 2) {
+        sui_message_box("Didn't display image","We've decided not to preview the image due to it being <2 pixels");
+	self->previewed = FALSE;
         return;
     }
     scaled_pixbuf = gdk_pixbuf_scale_simple(pixbuf, width, height,

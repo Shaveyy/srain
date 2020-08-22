@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-21 04:34+0000\n"
+"POT-Creation-Date: 2020-08-21 22:23-0400\n"
 "PO-Revision-Date: 2016-12-18 01:44+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/core/app_ui_event.c:380 ../src/core/chat_command.c:352
+#: ../src/core/chat_command.c:352 ../src/core/app_ui_event.c:380
 #, c-format
 msgid "\"%1$s\" has ignored"
 msgstr "已经忽略 %1$s "
 
-#: ../src/core/app_ui_event.c:383 ../src/core/chat_command.c:377
+#: ../src/core/chat_command.c:377 ../src/core/app_ui_event.c:383
 #, c-format
 msgid "\"%1$s\" has unignored"
 msgstr "已经解除对 %1$s 的忽略"
@@ -227,7 +227,7 @@ msgstr "无效的正则表达式：%1$s"
 msgid "By %1$s at %2$s"
 msgstr "%1$s 于 %2$s 设置"
 
-#: ../data/ui/connect_panel.glade:540 ../data/ui/join_panel.glade:401
+#: ../data/ui/join_panel.glade:401 ../data/ui/connect_panel.glade:540
 msgid "Cancel"
 msgstr "取消"
 
@@ -235,7 +235,7 @@ msgstr "取消"
 msgid "Cannot disconnect from a unconnected server"
 msgstr "无法从未连接的服务器断开连接"
 
-#: ../src/core/app_ui_event.c:251 ../src/core/chat_command.c:581
+#: ../src/core/chat_command.c:581 ../src/core/app_ui_event.c:251
 msgid "Cannot send message directly to a server"
 msgstr "不允许直接向服务器发送消息"
 
@@ -255,7 +255,7 @@ msgstr "频道："
 msgid "Configuration is reloaded"
 msgstr "已重新加载配置"
 
-#: ../data/ui/connect_panel.glade:554 ../data/ui/window.glade:88
+#: ../data/ui/window.glade:88 ../data/ui/connect_panel.glade:554
 msgid "Connect"
 msgstr "连接"
 
@@ -305,13 +305,13 @@ msgstr "已启用的扩展能力：%1$s"
 
 #: ../src/core/app.c:76 ../src/core/app.c:84 ../src/core/app.c:298
 #: ../src/core/app.c:409 ../src/sui/sui_app.c:469 ../src/sui/sui_app.c:488
-#: ../src/sui/sui_app.c:527 ../src/sui/sui_common.c:134
+#: ../src/sui/sui_app.c:527 ../src/sui/sui_misc_message.c:188
 #: ../src/sui/sui_connect_panel.c:494 ../src/sui/sui_connect_panel.c:503
 #: ../src/sui/sui_connect_panel.c:541 ../src/sui/sui_connect_panel.c:550
 #: ../src/sui/sui_connect_panel.c:596 ../src/sui/sui_join_panel.c:314
 #: ../src/sui/sui_join_panel.c:369 ../src/sui/sui_join_panel.c:380
 #: ../src/sui/sui_join_panel.c:397 ../src/sui/sui_join_panel.c:436
-#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_misc_message.c:188
+#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_common.c:134
 #: ../src/sui/sui_prefs_dialog.c:162
 msgid "Error"
 msgstr "错误"
@@ -356,7 +356,7 @@ msgstr "读取服务器配置时发生错误 %1$s：%2$s"
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "读取服务器配置列表时发生错误 %1$s：%2$s"
 
-#: ../src/sui/sui_url_previewer.c:553
+#: ../src/sui/sui_url_previewer.c:562
 msgid "Exceed max content length"
 msgstr "内容超出最大长度"
 
@@ -378,7 +378,7 @@ msgstr "无法添加聊天 \"%1$s\", 原因为: %2$s"
 msgid "Failed to add regex pattern \"%1$s\": %2$s"
 msgstr "无法添加服务器 \"%1$s\": %2$s"
 
-#: ../src/core/app.c:407 ../src/core/app_url.c:120
+#: ../src/core/app_url.c:119 ../src/core/app.c:407
 #, c-format
 msgid "Failed to add server \"%1$s\": %2$s"
 msgstr "无法添加服务器 \"%1$s\": %2$s"
@@ -463,7 +463,7 @@ msgstr "无法加载主题 \"%1$s\", 原因为: %2$s"
 msgid "Failed to instantiate server \"%1$s\""
 msgstr "无法实例化服务器 \"%1$s\""
 
-#: ../src/core/app_url.c:147 ../src/core/app_url.c:155
+#: ../src/core/app_url.c:146 ../src/core/app_url.c:154
 #, c-format
 msgid "Failed to join channel on server \"%1$s\": %2$s"
 msgstr "无法加入在 \"%1$s\" 服务器上的频道， 原因为: %2$s"
@@ -473,7 +473,7 @@ msgstr "无法加入在 \"%1$s\" 服务器上的频道， 原因为: %2$s"
 msgid "Failed to open URL \"%1$s\": %2$s"
 msgstr "无法打开 URL \"%1$s\"：%2$s"
 
-#: ../src/core/app_url.c:61
+#: ../src/core/app_url.c:60
 #, c-format
 msgid "Failed to parse \"%1$s\" as URL"
 msgstr "无法将 \"%1$s\" 解析为 URL"
@@ -493,8 +493,8 @@ msgstr "无法读取系统配置：%1$s"
 msgid "Failed to read user configuration file: %1$s"
 msgstr "无法读取用户配置：%1$s"
 
-#: ../src/core/app_url.c:136 ../src/core/chat_command.c:169
-#: ../src/core/chat_command.c:306
+#: ../src/core/chat_command.c:169 ../src/core/chat_command.c:306
+#: ../src/core/app_url.c:135
 #, c-format
 msgid "Failed to register on server \"%1$s\""
 msgstr "无法在服务器 \"%1$s\" 上注册"
@@ -519,9 +519,9 @@ msgstr "重新加载日志配置失败 \"%1$s\""
 msgid "Failed to remove regex pattern \"%1$s\": %2$s"
 msgstr "无法打开 URL \"%1$s\"：%2$s"
 
-#: ../src/render/mention_renderer.c:94
 #: ../src/render/mirc_colorize_renderer.c:105
-#: ../src/render/mirc_strip_renderer.c:72 ../src/render/url_renderer.c:117
+#: ../src/render/mirc_strip_renderer.c:72 ../src/render/mention_renderer.c:94
+#: ../src/render/url_renderer.c:117
 #, fuzzy, c-format
 msgid "Failed to render markup text: %1$s"
 msgstr "无法发送消息：%1$s"
@@ -746,7 +746,7 @@ msgstr "确定"
 msgid "Open one or more IRC URLs"
 msgstr "打开一个或多个 IRC 链接"
 
-#: ../data/ui/connect_panel.glade:485 ../data/ui/join_panel.glade:103
+#: ../data/ui/join_panel.glade:103 ../data/ui/connect_panel.glade:485
 msgid "Optional"
 msgstr "可选"
 
@@ -799,7 +799,7 @@ msgstr "收到来自 %2$s 的不支持的 CTCP %1$s 请求"
 msgid "Received unsupported CTCP %1$s response form %2$s"
 msgstr "收到来自 %2$s 的不支持的 CTCP %1$s 响应"
 
-#: ../src/core/app_ui_event.c:159 ../src/core/chat_command.c:188
+#: ../src/core/chat_command.c:188 ../src/core/app_ui_event.c:159
 msgid "Reconnection stopped"
 msgstr "已停止重新连接"
 
@@ -821,7 +821,7 @@ msgstr "重新加载配置"
 msgid "Remember login password"
 msgstr "记住登录密码"
 
-#: ../data/ui/connect_panel.glade:495 ../data/ui/join_panel.glade:113
+#: ../data/ui/join_panel.glade:113 ../data/ui/connect_panel.glade:495
 msgid "Remember password"
 msgstr "记住密码"
 
@@ -1014,11 +1014,11 @@ msgstr "未知选项：%1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "未知子命令：%1$s"
 
-#: ../src/sui/sui_url_previewer.c:325 ../src/sui/sui_url_previewer.c:575
+#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:584
 msgid "Unsupported URL content type"
 msgstr "不支持的 URL metadata 类型"
 
-#: ../src/core/app_url.c:68
+#: ../src/core/app_url.c:67
 #, c-format
 msgid "Unsupported protocol: %1$s"
 msgstr "不支持的协议：%1$s"
@@ -1088,7 +1088,7 @@ msgstr "地址："
 msgid "_Apply"
 msgstr "应用"
 
-#: ../data/ui/config_panel.glade:203 ../data/ui/prefs_dialog.glade:29
+#: ../data/ui/prefs_dialog.glade:29 ../data/ui/config_panel.glade:203
 msgid "_Cancel"
 msgstr "取消"
 
@@ -1128,7 +1128,7 @@ msgstr "登陆方式："
 msgid "_Nickname:"
 msgstr "昵称："
 
-#: ../data/ui/config_panel.glade:231 ../data/ui/prefs_dialog.glade:43
+#: ../data/ui/prefs_dialog.glade:43 ../data/ui/config_panel.glade:231
 msgid "_OK"
 msgstr "确定"
 

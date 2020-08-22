@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.1.2\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-21 04:34+0000\n"
+"POT-Creation-Date: 2020-08-21 22:28-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/core/app_ui_event.c:380 ../src/core/chat_command.c:352
+#: ../src/core/chat_command.c:352 ../src/core/app_ui_event.c:380
 #, c-format
 msgid "\"%1$s\" has ignored"
 msgstr ""
 
-#: ../src/core/app_ui_event.c:383 ../src/core/chat_command.c:377
+#: ../src/core/chat_command.c:377 ../src/core/app_ui_event.c:383
 #, c-format
 msgid "\"%1$s\" has unignored"
 msgstr ""
@@ -222,7 +222,7 @@ msgstr ""
 msgid "By %1$s at %2$s"
 msgstr ""
 
-#: ../data/ui/connect_panel.glade:540 ../data/ui/join_panel.glade:401
+#: ../data/ui/join_panel.glade:401 ../data/ui/connect_panel.glade:540
 msgid "Cancel"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Cannot disconnect from a unconnected server"
 msgstr ""
 
-#: ../src/core/app_ui_event.c:251 ../src/core/chat_command.c:581
+#: ../src/core/chat_command.c:581 ../src/core/app_ui_event.c:251
 msgid "Cannot send message directly to a server"
 msgstr ""
 
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Configuration is reloaded"
 msgstr ""
 
-#: ../data/ui/connect_panel.glade:554 ../data/ui/window.glade:88
+#: ../data/ui/window.glade:88 ../data/ui/connect_panel.glade:554
 msgid "Connect"
 msgstr ""
 
@@ -300,13 +300,13 @@ msgstr ""
 
 #: ../src/core/app.c:76 ../src/core/app.c:84 ../src/core/app.c:298
 #: ../src/core/app.c:409 ../src/sui/sui_app.c:469 ../src/sui/sui_app.c:488
-#: ../src/sui/sui_app.c:527 ../src/sui/sui_common.c:134
+#: ../src/sui/sui_app.c:527 ../src/sui/sui_misc_message.c:188
 #: ../src/sui/sui_connect_panel.c:494 ../src/sui/sui_connect_panel.c:503
 #: ../src/sui/sui_connect_panel.c:541 ../src/sui/sui_connect_panel.c:550
 #: ../src/sui/sui_connect_panel.c:596 ../src/sui/sui_join_panel.c:314
 #: ../src/sui/sui_join_panel.c:369 ../src/sui/sui_join_panel.c:380
 #: ../src/sui/sui_join_panel.c:397 ../src/sui/sui_join_panel.c:436
-#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_misc_message.c:188
+#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_common.c:134
 #: ../src/sui/sui_prefs_dialog.c:162
 msgid "Error"
 msgstr ""
@@ -351,7 +351,7 @@ msgstr ""
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr ""
 
-#: ../src/sui/sui_url_previewer.c:553
+#: ../src/sui/sui_url_previewer.c:562
 msgid "Exceed max content length"
 msgstr ""
 
@@ -373,7 +373,7 @@ msgstr ""
 msgid "Failed to add regex pattern \"%1$s\": %2$s"
 msgstr ""
 
-#: ../src/core/app.c:407 ../src/core/app_url.c:120
+#: ../src/core/app_url.c:119 ../src/core/app.c:407
 #, c-format
 msgid "Failed to add server \"%1$s\": %2$s"
 msgstr ""
@@ -458,7 +458,7 @@ msgstr ""
 msgid "Failed to instantiate server \"%1$s\""
 msgstr ""
 
-#: ../src/core/app_url.c:147 ../src/core/app_url.c:155
+#: ../src/core/app_url.c:146 ../src/core/app_url.c:154
 #, c-format
 msgid "Failed to join channel on server \"%1$s\": %2$s"
 msgstr ""
@@ -468,7 +468,7 @@ msgstr ""
 msgid "Failed to open URL \"%1$s\": %2$s"
 msgstr ""
 
-#: ../src/core/app_url.c:61
+#: ../src/core/app_url.c:60
 #, c-format
 msgid "Failed to parse \"%1$s\" as URL"
 msgstr ""
@@ -488,8 +488,8 @@ msgstr ""
 msgid "Failed to read user configuration file: %1$s"
 msgstr ""
 
-#: ../src/core/app_url.c:136 ../src/core/chat_command.c:169
-#: ../src/core/chat_command.c:306
+#: ../src/core/chat_command.c:169 ../src/core/chat_command.c:306
+#: ../src/core/app_url.c:135
 #, c-format
 msgid "Failed to register on server \"%1$s\""
 msgstr ""
@@ -514,9 +514,9 @@ msgstr ""
 msgid "Failed to remove regex pattern \"%1$s\": %2$s"
 msgstr ""
 
-#: ../src/render/mention_renderer.c:94
 #: ../src/render/mirc_colorize_renderer.c:105
-#: ../src/render/mirc_strip_renderer.c:72 ../src/render/url_renderer.c:117
+#: ../src/render/mirc_strip_renderer.c:72 ../src/render/mention_renderer.c:94
+#: ../src/render/url_renderer.c:117
 #, c-format
 msgid "Failed to render markup text: %1$s"
 msgstr ""
@@ -739,7 +739,7 @@ msgstr ""
 msgid "Open one or more IRC URLs"
 msgstr ""
 
-#: ../data/ui/connect_panel.glade:485 ../data/ui/join_panel.glade:103
+#: ../data/ui/join_panel.glade:103 ../data/ui/connect_panel.glade:485
 msgid "Optional"
 msgstr ""
 
@@ -792,7 +792,7 @@ msgstr ""
 msgid "Received unsupported CTCP %1$s response form %2$s"
 msgstr ""
 
-#: ../src/core/app_ui_event.c:159 ../src/core/chat_command.c:188
+#: ../src/core/chat_command.c:188 ../src/core/app_ui_event.c:159
 msgid "Reconnection stopped"
 msgstr ""
 
@@ -814,7 +814,7 @@ msgstr ""
 msgid "Remember login password"
 msgstr ""
 
-#: ../data/ui/connect_panel.glade:495 ../data/ui/join_panel.glade:113
+#: ../data/ui/join_panel.glade:113 ../data/ui/connect_panel.glade:495
 msgid "Remember password"
 msgstr ""
 
@@ -1005,11 +1005,11 @@ msgstr ""
 msgid "Unknown sub command: %1$s"
 msgstr ""
 
-#: ../src/sui/sui_url_previewer.c:325 ../src/sui/sui_url_previewer.c:575
+#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:584
 msgid "Unsupported URL content type"
 msgstr ""
 
-#: ../src/core/app_url.c:68
+#: ../src/core/app_url.c:67
 #, c-format
 msgid "Unsupported protocol: %1$s"
 msgstr ""
@@ -1077,7 +1077,7 @@ msgstr ""
 msgid "_Apply"
 msgstr ""
 
-#: ../data/ui/config_panel.glade:203 ../data/ui/prefs_dialog.glade:29
+#: ../data/ui/prefs_dialog.glade:29 ../data/ui/config_panel.glade:203
 msgid "_Cancel"
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "_Nickname:"
 msgstr ""
 
-#: ../data/ui/config_panel.glade:231 ../data/ui/prefs_dialog.glade:43
+#: ../data/ui/prefs_dialog.glade:43 ../data/ui/config_panel.glade:231
 msgid "_OK"
 msgstr ""
 
