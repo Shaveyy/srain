@@ -35,7 +35,7 @@
 /**
  * @brief Get the time since this function firstly called, in millsceonds
  *
- * @return 
+ * @return
  *
  * NOTE: This function is not thread-safe
  **/
@@ -109,4 +109,23 @@ void str_transcoding(char **str, const char *from_codeset){
         WARN_FR("Failed to convert line from %s to %s: %s", from_codeset, SRN_CODESET, err->message);
         g_error_free(err);
     }
+}
+
+char* getOsName()
+{
+    #ifdef _WIN32
+    return "Windows 32-bit";
+    #elif _WIN64
+    return "Windows 64-bit";
+    #elif __APPLE__ || __MACH__
+    return "Mac OSX";
+    #elif __linux__
+    return "Linux";
+    #elif __FreeBSD__
+    return "FreeBSD";
+    #elif __unix || __unix__
+    return "Unix";
+    #else
+    return "Other";
+    #endif
 }

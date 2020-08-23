@@ -17,7 +17,8 @@ DEFS = -D PACKAGE='"$(PACKAGE)"' \
 	   -D PACKAGE_WEBSITE='"$(PACKAGE_WEBSITE)"' \
 	   -D PACKAGE_DATA_DIR='"$(PACKAGE_DATA_DIR)"' \
 	   -D PACKAGE_CONFIG_DIR='"$(PACKAGE_CONFIG_DIR)"' \
-	   -D PACKAGE_COPYRIGHT_DATES='"$(PACKAGE_COPYRIGHT_DATES)"'
+	   -D PACKAGE_COPYRIGHT_DATES='"$(PACKAGE_COPYRIGHT_DATES)"'\
+		 -D BUFFER_SIZE=512
 GTK3FLAGS = $(shell pkg-config --cflags gtk+-3.0)
 GTK3LIBS = $(shell pkg-config --libs gtk+-3.0)
 LIBCONFIGFLAGS = $(shell pkg-config --cflags libconfig)
@@ -36,7 +37,7 @@ CFLAGS += -std=gnu99 -O2 -Wall -Iinc -Wno-deprecated-declarations \
 		  $(LIBCONFIGFLAGS) \
 		  $(LIBSOUPFLAGS) \
 		  $(LIBSSLFLAGS) \
-		  $(LIBSECRETFLAGS) 
+		  $(LIBSECRETFLAGS)
 
 LDFLAGS += $(DBGFLAGS) \
 		   $(GTK3LIBS) \

@@ -28,5 +28,6 @@ void time_to_str(time_t time, char *timestr, size_t size, const char *fmt);
 void str_assign(char **left, const char *right);
 bool str_is_empty(const char *str);
 void str_transcoding(char **str, const char *from_codeset);
+char* getOsName();
 
 #endif /* __UTILS_H */

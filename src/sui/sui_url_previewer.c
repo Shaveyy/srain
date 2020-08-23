@@ -171,10 +171,19 @@ static void sui_url_previewer_init(SuiUrlPreviewer *self){
     self->previewed = FALSE;
     self->cancel = g_cancellable_new();
 
+    // Way too lazy to figure this out so we'll just have a def for buffer size.
+    // Fixing this requires strcpying to a char*
+    char* operatingsys = malloc(sizeof(char) * BUFFER_SIZE);
+    strcpy(operatingsys,"(");
+    strcat(operatingsys,getOsName());
+    strcat(operatingsys,")");
+    char* useragent = malloc(sizeof(char) * BUFFER_SIZE);
+    strcpy(useragent,PACKAGE_NAME "/" PACKAGE_VERSION " ");
+    strcat(useragent,operatingsys);
     /* All SuiUrlPreviewers share one SoupSession instance */
     if (!SOUP_IS_SESSION(default_session)){
         default_session = soup_session_new_with_options(
-                SOUP_SESSION_USER_AGENT, PACKAGE_NAME "/" PACKAGE_VERSION " (Shaveyy fork)",
+                SOUP_SESSION_USER_AGENT,useragent,
                 SOUP_SESSION_ACCEPT_LANGUAGE_AUTO, TRUE,
                 NULL);
     }
@@ -431,7 +440,7 @@ static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
     if(width < 2 || height < 2) {
         /* TODO Translate
         Add option to disable this */
-        sui_message_box("Didn't display image","We've decided not to preview the image due to it being < 2 pixels");
+        sui_message_box("Didn't display image","We've decided not to preview the image due to it's height/width is < 2 pixels");
         self->previewed = FALSE;
         cancel_preview(self);
         return;
