@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.1.2\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-22 17:49-0400\n"
+"POT-Creation-Date: 2020-08-24 00:11-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -222,7 +222,7 @@ msgstr ""
 msgid "By %1$s at %2$s"
 msgstr ""
 
-#: ../data/ui/join_panel.glade:401 ../data/ui/connect_panel.glade:540
+#: ../data/ui/connect_panel.glade:540 ../data/ui/join_panel.glade:401
 msgid "Cancel"
 msgstr ""
 
@@ -301,13 +301,13 @@ msgstr ""
 #: ../src/core/app.c:76 ../src/core/app.c:84 ../src/core/app.c:298
 #: ../src/core/app.c:409 ../src/sui/sui_app.c:469 ../src/sui/sui_app.c:488
 #: ../src/sui/sui_app.c:527 ../src/sui/sui_misc_message.c:188
+#: ../src/sui/sui_common.c:134 ../src/sui/sui_prefs_dialog.c:162
 #: ../src/sui/sui_connect_panel.c:494 ../src/sui/sui_connect_panel.c:503
 #: ../src/sui/sui_connect_panel.c:541 ../src/sui/sui_connect_panel.c:550
 #: ../src/sui/sui_connect_panel.c:596 ../src/sui/sui_join_panel.c:314
 #: ../src/sui/sui_join_panel.c:369 ../src/sui/sui_join_panel.c:380
 #: ../src/sui/sui_join_panel.c:397 ../src/sui/sui_join_panel.c:436
-#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_common.c:134
-#: ../src/sui/sui_prefs_dialog.c:162
+#: ../src/sui/sui_join_panel.c:442
 msgid "Error"
 msgstr ""
 
@@ -351,7 +351,7 @@ msgstr ""
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr ""
 
-#: ../src/sui/sui_url_previewer.c:565
+#: ../src/sui/sui_url_previewer.c:574
 msgid "Exceed max content length"
 msgstr ""
 
@@ -595,7 +595,7 @@ msgid ""
 "try to enable it and reconnect"
 msgstr ""
 
-#: ../data/ui/join_panel.glade:416 ../data/ui/window.glade:103
+#: ../data/ui/window.glade:103 ../data/ui/join_panel.glade:416
 msgid "Join"
 msgstr ""
 
@@ -739,7 +739,7 @@ msgstr ""
 msgid "Open one or more IRC URLs"
 msgstr ""
 
-#: ../data/ui/join_panel.glade:103 ../data/ui/connect_panel.glade:485
+#: ../data/ui/connect_panel.glade:485 ../data/ui/join_panel.glade:103
 msgid "Optional"
 msgstr ""
 
@@ -814,7 +814,7 @@ msgstr ""
 msgid "Remember login password"
 msgstr ""
 
-#: ../data/ui/join_panel.glade:113 ../data/ui/connect_panel.glade:495
+#: ../data/ui/connect_panel.glade:495 ../data/ui/join_panel.glade:113
 msgid "Remember password"
 msgstr ""
 
@@ -1005,7 +1005,7 @@ msgstr ""
 msgid "Unknown sub command: %1$s"
 msgstr ""
 
-#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:587
+#: ../src/sui/sui_url_previewer.c:338 ../src/sui/sui_url_previewer.c:596
 msgid "Unsupported URL content type"
 msgstr ""
 
@@ -1077,7 +1077,7 @@ msgstr ""
 msgid "_Apply"
 msgstr ""
 
-#: ../data/ui/prefs_dialog.glade:29 ../data/ui/config_panel.glade:203
+#: ../data/ui/config_panel.glade:203 ../data/ui/prefs_dialog.glade:29
 msgid "_Cancel"
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "_Nickname:"
 msgstr ""
 
-#: ../data/ui/prefs_dialog.glade:43 ../data/ui/config_panel.glade:231
+#: ../data/ui/config_panel.glade:231 ../data/ui/prefs_dialog.glade:43
 msgid "_OK"
 msgstr ""
 

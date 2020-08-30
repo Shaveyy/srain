@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-22 01:34-0400\n"
+"POT-Creation-Date: 2020-08-24 00:11-0400\n"
 "PO-Revision-Date: 2016-12-18 01:44+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -227,7 +227,7 @@ msgstr "无效的正则表达式：%1$s"
 msgid "By %1$s at %2$s"
 msgstr "%1$s 于 %2$s 设置"
 
-#: ../data/ui/join_panel.glade:401 ../data/ui/connect_panel.glade:540
+#: ../data/ui/connect_panel.glade:540 ../data/ui/join_panel.glade:401
 msgid "Cancel"
 msgstr "取消"
 
@@ -306,13 +306,13 @@ msgstr "已启用的扩展能力：%1$s"
 #: ../src/core/app.c:76 ../src/core/app.c:84 ../src/core/app.c:298
 #: ../src/core/app.c:409 ../src/sui/sui_app.c:469 ../src/sui/sui_app.c:488
 #: ../src/sui/sui_app.c:527 ../src/sui/sui_misc_message.c:188
+#: ../src/sui/sui_common.c:134 ../src/sui/sui_prefs_dialog.c:162
 #: ../src/sui/sui_connect_panel.c:494 ../src/sui/sui_connect_panel.c:503
 #: ../src/sui/sui_connect_panel.c:541 ../src/sui/sui_connect_panel.c:550
 #: ../src/sui/sui_connect_panel.c:596 ../src/sui/sui_join_panel.c:314
 #: ../src/sui/sui_join_panel.c:369 ../src/sui/sui_join_panel.c:380
 #: ../src/sui/sui_join_panel.c:397 ../src/sui/sui_join_panel.c:436
-#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_common.c:134
-#: ../src/sui/sui_prefs_dialog.c:162
+#: ../src/sui/sui_join_panel.c:442
 msgid "Error"
 msgstr "错误"
 
@@ -356,7 +356,7 @@ msgstr "读取服务器配置时发生错误 %1$s：%2$s"
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "读取服务器配置列表时发生错误 %1$s：%2$s"
 
-#: ../src/sui/sui_url_previewer.c:565
+#: ../src/sui/sui_url_previewer.c:574
 msgid "Exceed max content length"
 msgstr "内容超出最大长度"
 
@@ -602,7 +602,7 @@ msgstr ""
 "看起来你似乎对一个 TLS 端口(%1$d) 使用了非 TLS 加密的连接，请尝试启用 TLS 并"
 "重新连接"
 
-#: ../data/ui/join_panel.glade:416 ../data/ui/window.glade:103
+#: ../data/ui/window.glade:103 ../data/ui/join_panel.glade:416
 msgid "Join"
 msgstr "加入"
 
@@ -746,7 +746,7 @@ msgstr "确定"
 msgid "Open one or more IRC URLs"
 msgstr "打开一个或多个 IRC 链接"
 
-#: ../data/ui/join_panel.glade:103 ../data/ui/connect_panel.glade:485
+#: ../data/ui/connect_panel.glade:485 ../data/ui/join_panel.glade:103
 msgid "Optional"
 msgstr "可选"
 
@@ -821,7 +821,7 @@ msgstr "重新加载配置"
 msgid "Remember login password"
 msgstr "记住登录密码"
 
-#: ../data/ui/join_panel.glade:113 ../data/ui/connect_panel.glade:495
+#: ../data/ui/connect_panel.glade:495 ../data/ui/join_panel.glade:113
 msgid "Remember password"
 msgstr "记住密码"
 
@@ -1014,7 +1014,7 @@ msgstr "未知选项：%1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "未知子命令：%1$s"
 
-#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:587
+#: ../src/sui/sui_url_previewer.c:338 ../src/sui/sui_url_previewer.c:596
 msgid "Unsupported URL content type"
 msgstr "不支持的 URL metadata 类型"
 
@@ -1088,7 +1088,7 @@ msgstr "地址："
 msgid "_Apply"
 msgstr "应用"
 
-#: ../data/ui/prefs_dialog.glade:29 ../data/ui/config_panel.glade:203
+#: ../data/ui/config_panel.glade:203 ../data/ui/prefs_dialog.glade:29
 msgid "_Cancel"
 msgstr "取消"
 
@@ -1128,7 +1128,7 @@ msgstr "登陆方式："
 msgid "_Nickname:"
 msgstr "昵称："
 
-#: ../data/ui/prefs_dialog.glade:43 ../data/ui/config_panel.glade:231
+#: ../data/ui/config_panel.glade:231 ../data/ui/prefs_dialog.glade:43
 msgid "_OK"
 msgstr "确定"
 

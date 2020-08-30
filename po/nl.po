@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-22 01:34-0400\n"
+"POT-Creation-Date: 2020-08-24 00:11-0400\n"
 "PO-Revision-Date: 2020-03-07 20:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -227,7 +227,7 @@ msgstr "Beschikbare regex-patronen:"
 msgid "By %1$s at %2$s"
 msgstr "Door %1$s op %2$s"
 
-#: ../data/ui/join_panel.glade:401 ../data/ui/connect_panel.glade:540
+#: ../data/ui/connect_panel.glade:540 ../data/ui/join_panel.glade:401
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -306,13 +306,13 @@ msgstr "Ingeschakelde functionaliteit:"
 #: ../src/core/app.c:76 ../src/core/app.c:84 ../src/core/app.c:298
 #: ../src/core/app.c:409 ../src/sui/sui_app.c:469 ../src/sui/sui_app.c:488
 #: ../src/sui/sui_app.c:527 ../src/sui/sui_misc_message.c:188
+#: ../src/sui/sui_common.c:134 ../src/sui/sui_prefs_dialog.c:162
 #: ../src/sui/sui_connect_panel.c:494 ../src/sui/sui_connect_panel.c:503
 #: ../src/sui/sui_connect_panel.c:541 ../src/sui/sui_connect_panel.c:550
 #: ../src/sui/sui_connect_panel.c:596 ../src/sui/sui_join_panel.c:314
 #: ../src/sui/sui_join_panel.c:369 ../src/sui/sui_join_panel.c:380
 #: ../src/sui/sui_join_panel.c:397 ../src/sui/sui_join_panel.c:436
-#: ../src/sui/sui_join_panel.c:442 ../src/sui/sui_common.c:134
-#: ../src/sui/sui_prefs_dialog.c:162
+#: ../src/sui/sui_join_panel.c:442
 msgid "Error"
 msgstr "Fout"
 
@@ -356,7 +356,7 @@ msgstr "Fout tijdens uitlezen van serverconfiguratie in %1$s: %2$s"
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "Fout tijdens uitlezen van serverlijstconfiguratie in %1$s: %2$s"
 
-#: ../src/sui/sui_url_previewer.c:565
+#: ../src/sui/sui_url_previewer.c:574
 msgid "Exceed max content length"
 msgstr "Maximum inhoudslengte overschreden"
 
@@ -605,7 +605,7 @@ msgstr ""
 "Het lijkt erop dat u probeert te verbinden met een TLS-poort(%1$d) zonder "
 "TLS-verbinding. Zet deze op en probeer het opnieuw."
 
-#: ../data/ui/join_panel.glade:416 ../data/ui/window.glade:103
+#: ../data/ui/window.glade:103 ../data/ui/join_panel.glade:416
 msgid "Join"
 msgstr "Binnengaan"
 
@@ -750,7 +750,7 @@ msgstr "Oké"
 msgid "Open one or more IRC URLs"
 msgstr "Open één of meer IRC-url's"
 
-#: ../data/ui/join_panel.glade:103 ../data/ui/connect_panel.glade:485
+#: ../data/ui/connect_panel.glade:485 ../data/ui/join_panel.glade:103
 msgid "Optional"
 msgstr "Optioneel"
 
@@ -825,7 +825,7 @@ msgstr "Configuratie opnieuw laden"
 msgid "Remember login password"
 msgstr "Inlogwachtwoord onthouden"
 
-#: ../data/ui/join_panel.glade:113 ../data/ui/connect_panel.glade:495
+#: ../data/ui/connect_panel.glade:495 ../data/ui/join_panel.glade:113
 msgid "Remember password"
 msgstr "Wachtwoord onthouden"
 
@@ -1022,7 +1022,7 @@ msgstr "Onbekende optie: %1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "Onbekende achterliggende opdraht: %1$s"
 
-#: ../src/sui/sui_url_previewer.c:329 ../src/sui/sui_url_previewer.c:587
+#: ../src/sui/sui_url_previewer.c:338 ../src/sui/sui_url_previewer.c:596
 msgid "Unsupported URL content type"
 msgstr "Niet-ondersteunde url"
 
@@ -1096,7 +1096,7 @@ msgstr "_Adres:"
 msgid "_Apply"
 msgstr "Toep_assen"
 
-#: ../data/ui/prefs_dialog.glade:29 ../data/ui/config_panel.glade:203
+#: ../data/ui/config_panel.glade:203 ../data/ui/prefs_dialog.glade:29
 msgid "_Cancel"
 msgstr "_Annuleren"
 
@@ -1136,7 +1136,7 @@ msgstr "In_logmethode:"
 msgid "_Nickname:"
 msgstr "Bij_naam:"
 
-#: ../data/ui/prefs_dialog.glade:43 ../data/ui/config_panel.glade:231
+#: ../data/ui/config_panel.glade:231 ../data/ui/prefs_dialog.glade:43
 msgid "_OK"
 msgstr "_Oké"
 

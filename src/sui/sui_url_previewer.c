@@ -173,6 +173,7 @@ static void sui_url_previewer_init(SuiUrlPreviewer *self){
 
     // Way too lazy to figure this out so we'll just have a def for buffer size.
     // Fixing this requires strcpying to a char*
+    // Send useragent with OS and version of srain
     char* operatingsys = malloc(sizeof(char) * BUFFER_SIZE);
     strcpy(operatingsys,"(");
     strcat(operatingsys,getOsName());
@@ -437,6 +438,12 @@ static void preview_image(SuiUrlPreviewer *self, GdkPixbuf *pixbuf){
     sui_common_scale_size(gdk_pixbuf_get_width(pixbuf), gdk_pixbuf_get_height(pixbuf),
             THUMBNAIL_SIZE, THUMBNAIL_SIZE, &width, &height);
     // Block images that have a small height or width
+    if(!width || !height) {
+      sui_message_box("Issue","Width/Height are null");
+      self->previewed = FALSE;
+      cancel_preview(self);
+      return;
+    }
     if(width < 2 || height < 2) {
         /* TODO Translate
         Add option to disable this */
