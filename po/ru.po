@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-24 00:11-0400\n"
+"POT-Creation-Date: 2020-09-03 20:09-0400\n"
 "PO-Revision-Date: 2019-04-17 16:14+0300\n"
 "Last-Translator: Artem Polishchuk <ego.cordatus@gmail.com>\n"
 "Language-Team: \n"
@@ -361,7 +361,7 @@ msgstr "Произошла ошибка при чтении конфигурац
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "Ошибка при чтении конфигурации списка серверов в %1$s: %2$s"
 
-#: ../src/sui/sui_url_previewer.c:574
+#: ../src/sui/sui_url_previewer.c:581
 msgid "Exceed max content length"
 msgstr "Превышение максимальной длины содержимого"
 
@@ -625,7 +625,7 @@ msgstr "Войти на канал"
 msgid "Latency between %1$s: %2$lums"
 msgstr "Задержка между %1$s: %2$luмс"
 
-#: ../src/sirc/sirc.c:196
+#: ../src/sirc/sirc.c:197
 msgid "Local connection closed"
 msgstr "Локальное соединение закрыто"
 
@@ -839,7 +839,7 @@ msgstr ""
 msgid "Remember password"
 msgstr ""
 
-#: ../src/sirc/sirc.c:209
+#: ../src/sirc/sirc.c:210
 msgid "Remote connection closed"
 msgstr "Удаленное соединение закрыто"
 
@@ -1030,7 +1030,7 @@ msgstr "Неизвестный параметр %1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "Неизвестная подкоманда: %1$s"
 
-#: ../src/sui/sui_url_previewer.c:338 ../src/sui/sui_url_previewer.c:596
+#: ../src/sui/sui_url_previewer.c:339 ../src/sui/sui_url_previewer.c:603
 msgid "Unsupported URL content type"
 msgstr "Неподдерживаемый тип содержимого URL"
 

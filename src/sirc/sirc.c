@@ -151,6 +151,7 @@ void sirc_connect(SircSession *sirc, const char *host, int port){
     g_return_if_fail(sirc);
     g_return_if_fail(host);
     g_return_if_fail(port > 0);
+    g_return_if_fail(port < 65535);
 
     escaped_host = g_uri_escape_string(host, NULL, FALSE);
     g_cancellable_reset(sirc->cancel);

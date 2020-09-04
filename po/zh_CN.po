@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srain 1.0.0\n"
 "Report-Msgid-Bugs-To: i@silverrainz.me\n"
-"POT-Creation-Date: 2020-08-24 00:11-0400\n"
+"POT-Creation-Date: 2020-09-03 20:09-0400\n"
 "PO-Revision-Date: 2016-12-18 01:44+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -356,7 +356,7 @@ msgstr "读取服务器配置时发生错误 %1$s：%2$s"
 msgid "Error occurred while reading server list config in %1$s: %2$s"
 msgstr "读取服务器配置列表时发生错误 %1$s：%2$s"
 
-#: ../src/sui/sui_url_previewer.c:574
+#: ../src/sui/sui_url_previewer.c:581
 msgid "Exceed max content length"
 msgstr "内容超出最大长度"
 
@@ -615,7 +615,7 @@ msgstr "加入频道"
 msgid "Latency between %1$s: %2$lums"
 msgstr "到 %1$s 的延迟为 %2$lu 毫秒"
 
-#: ../src/sirc/sirc.c:196
+#: ../src/sirc/sirc.c:197
 msgid "Local connection closed"
 msgstr "本地链接已关闭"
 
@@ -825,7 +825,7 @@ msgstr "记住登录密码"
 msgid "Remember password"
 msgstr "记住密码"
 
-#: ../src/sirc/sirc.c:209
+#: ../src/sirc/sirc.c:210
 msgid "Remote connection closed"
 msgstr "远程连接已断开"
 
@@ -1014,7 +1014,7 @@ msgstr "未知选项：%1$s"
 msgid "Unknown sub command: %1$s"
 msgstr "未知子命令：%1$s"
 
-#: ../src/sui/sui_url_previewer.c:338 ../src/sui/sui_url_previewer.c:596
+#: ../src/sui/sui_url_previewer.c:339 ../src/sui/sui_url_previewer.c:603
 msgid "Unsupported URL content type"
 msgstr "不支持的 URL metadata 类型"
 
