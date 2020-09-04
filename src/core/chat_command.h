@@ -33,6 +33,7 @@ SrnRet on_command_query(SrnCommand *cmd, void *user_data);
 SrnRet on_command_unquery(SrnCommand *cmd, void *user_data);
 SrnRet on_command_join(SrnCommand *cmd, void *user_data);
 SrnRet on_command_part(SrnCommand *cmd, void *user_data);
+SrnRet on_command_clear(SrnCommand *cmd, void *user_data);
 SrnRet on_command_quit(SrnCommand *cmd, void *user_data);
 SrnRet on_command_topic(SrnCommand *cmd, void *user_data);
 SrnRet on_command_msg(SrnCommand *cmd, void *user_data);
@@ -140,6 +141,14 @@ static SrnCommandBinding cmd_bindings[] = {
         .opt = { SRN_COMMAND_EMPTY_OPT },
         .flags = SRN_COMMAND_FLAG_OMIT_ARG,
         .cb = on_command_part,
+    },
+    {
+        .name = "/clear",
+        .alias = { "/clearchat", NULL},
+        .argc = 0, // [channel] [reason]
+        .opt = { SRN_COMMAND_EMPTY_OPT },
+        .flags = SRN_COMMAND_FLAG_OMIT_ARG,
+        .cb = on_command_clear,
     },
     {
         .name = "/quit",

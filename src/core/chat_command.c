@@ -511,6 +511,19 @@ SrnRet on_command_part(SrnCommand *cmd, void *user_data){
     return sirc_cmd_part(srv->irc, chan, reason);
 }
 
+SrnRet on_command_clear(SrnCommand *cmd, void *user_data){
+    const char *chan;
+    const char *reason;
+    SrnServer *srv;
+    SrnChat *chat;
+
+    srv = ctx_get_server(user_data);
+    g_return_val_if_fail(srv, SRN_ERR);
+    chat = ctx_get_chat(user_data);
+
+    return sirc_cmd_clear(srv->irc);
+}
+
 SrnRet on_command_quit(SrnCommand *cmd, void *user_data){
     const char *reason;
     SrnServer *srv;

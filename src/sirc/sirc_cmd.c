@@ -278,6 +278,12 @@ int sirc_cmd_away(SircSession *sirc, const char *msg){
     }
 }
 
+// TODO Make it clear your own chat
+int sirc_cmd_clear(SircSession *sirc){
+  // Only a few servers support this
+  sirc_cmd_raw(sirc,"CLEAR\r\n")
+}
+
 int sirc_cmd_raw(SircSession *sirc, const char *fmt, ...){
     char buf[SIRC_BUF_LEN];
     int len = 0;
