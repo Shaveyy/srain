@@ -202,11 +202,12 @@ void sui_notify_message(SuiMessage *msg){
     }
 
     notif = sui_message_new_notification(msg);
-    // Send notification if app is not focused
-    if (!in_app) {
-        DBG_FR("Sending notification");
+    if (in_app) {
+        // TODO: In-app notification support
+    } else {
         sui_application_highlight_tray_icon(app, TRUE);
         sui_application_send_notification(app, notif);
+        DBG_FR("Sent notification");
     }
 
     sui_notification_free(notif);
